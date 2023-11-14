@@ -67,6 +67,8 @@ button{
     left: -320px;
     transition: left 1s linear;
     z-index: 4;
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
 }
 input{
     height: 40px;
